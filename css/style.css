@@ -310,7 +310,10 @@ main {
       p {
         color: var(--gray60);
         margin-top: 0;
-        margin-bottom: 50px;
+      }
+
+      button {
+        margin-top: 34px;
       }
     }
 
@@ -336,6 +339,7 @@ main {
         padding: 30px;
         max-width: 362px;
         min-width: 362px;
+        border-radius: 10px;
         background: linear-gradient(to top, #0D1522, #0E1523, #101825, #131B28, #161D2A, #171E2B, #18202C);
         .msi-icon {
           width: 98px;
